@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Racing Blog - Latest Formula 1 News & Updates</title>
+    <meta name="description" content="Your go-to source for Formula 1 news, race analysis, driver updates, and F1 insights.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>F1<span class="highlight">BLOG</span></h1>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#races">Races</a></li>
+                    <li><a href="#drivers">Drivers</a></li>
+                    <li><a href="#teams">Teams</a></li>
+                    <li><a href="#analysis">Analysis</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+                <button class="mobile-toggle" id="mobileToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-tag">FORMULA 1 COVERAGE</span>
+                <h2 class="hero-title">Your Ultimate Source for F1 News & Analysis</h2>
+                <p class="hero-description">Stay updated with the latest race results, driver standings, team news, and expert analysis from the world of Formula 1.</p>
+                <div class="hero-buttons">
+                    <a href="#latest" class="btn btn-primary">Latest Posts</a>
+                    <a href="#subscribe" class="btn btn-secondary">Subscribe</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="content-grid">
+                <!-- Blog Posts Section -->
+                <section class="blog-posts">
+                    <div class="section-header">
+                        <h2>Latest Articles</h2>
+                        <div class="filter-tags">
+                            <button class="tag-btn active" data-filter="all">All</button>
+                            <button class="tag-btn" data-filter="race-recap">Race Recap</button>
+                            <button class="tag-btn" data-filter="analysis">Analysis</button>
+                            <button class="tag-btn" data-filter="news">News</button>
+                        </div>
+                    </div>
+
+                    <!-- Featured Post -->
+                    <article class="post-card featured" data-category="analysis">
+                        <div class="post-image">
+                            <img src="C:\Users\Fraser\Downloads\verstap.jpg" alt="Max Verstappen">
+                            <span class="post-badge">Featured</span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="category">Sports Preview</span>
+                                <span class="date">December 3, 2025</span>
+                            </div>
+                            <h3 class="post-title">
+                                <a href="post.html">Abu Dhabi Grand Prix Preview: Verstappen Targets the Greatest Comeback in F1 History</a>
+                            </h3>
+                            <p class="post-excerpt">
+                                Three drivers enter Abu Dhabi level on seven wins each. Norris leads on 408 points, Verstappen on 396, and Piastri on 392. The stage is set for one of the most intense championship finals we have ever seen.
+                            </p>
+                            <div class="post-footer">
+                                <div class="author">
+                                    <img src="C:\Users\Fraser\Downloads\IMG_6025.jpg" alt="Joe Varney">
+                                    <span>By <strong>Joe Varney</strong></span>
+                                </div>
+                                <span class="read-time">6 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+
+                <!-- Sidebar -->
+                <aside class="sidebar">
+                    <!-- Subscribe Widget -->
+                    <div class="widget subscribe-widget">
+                        <h3>Subscribe to Our Newsletter</h3>
+                        <p>Get the latest F1 news delivered straight to your inbox.</p>
+                        <form class="subscribe-form">
+                            <input type="email" placeholder="Your email address" required>
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </form>
+                    </div>
+
+                    <!-- Current Standings Widget -->
+                    <div class="widget standings-widget">
+                        <h3>Driver Standings 2025</h3>
+                        <ul class="standings-list">
+                            <li>
+                                <span class="position">1</span>
+                                <span class="driver">L. Norris</span>
+                                <span class="points">408</span>
+                            </li>
+                            <li>
+                                <span class="position">2</span>
+                                <span class="driver">M. Verstappen</span>
+                                <span class="points">396</span>
+                            </li>
+                            <li>
+                                <span class="position">3</span>
+                                <span class="driver">O. Piastri</span>
+                                <span class="points">392</span>
+                            </li>
+                            <li>
+                                <span class="position">4</span>
+                                <span class="driver">C. Leclerc</span>
+                                <span class="points">318</span>
+                            </li>
+                            <li>
+                                <span class="position">5</span>
+                                <span class="driver">G. Russell</span>
+                                <span class="points">285</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="view-all">View Full Standings →</a>
+                    </div>
+
+                    <!-- Constructors Championship Widget -->
+                    <div class="widget standings-widget">
+                        <h3>Constructors' Championship 2025</h3>
+                        <ul class="standings-list">
+                            <li>
+                                <span class="position">1</span>
+                                <span class="driver">McLaren</span>
+                                <span class="points">800</span>
+                            </li>
+                            <li>
+                                <span class="position">2</span>
+                                <span class="driver">Red Bull Racing</span>
+                                <span class="points">658</span>
+                            </li>
+                            <li>
+                                <span class="position">3</span>
+                                <span class="driver">Ferrari</span>
+                                <span class="points">584</span>
+                            </li>
+                            <li>
+                                <span class="position">4</span>
+                                <span class="driver">Mercedes</span>
+                                <span class="points">468</span>
+                            </li>
+                            <li>
+                                <span class="position">5</span>
+                                <span class="driver">Aston Martin</span>
+                                <span class="points">96</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="view-all">View Full Standings →</a>
+                    </div>
+
+                    <!-- Categories Widget -->
+                    <div class="widget categories-widget">
+                        <h3>Categories</h3>
+                        <ul class="categories-list">
+                            <li><a href="#">Race Recaps <span>(24)</span></a></li>
+                            <li><a href="#">Technical Analysis <span>(18)</span></a></li>
+                            <li><a href="#">Driver News <span>(31)</span></a></li>
+                            <li><a href="#">Team Updates <span>(22)</span></a></li>
+                            <li><a href="#">Opinion <span>(15)</span></a></li>
+                            <li><a href="#">History <span>(12)</span></a></li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>F1<span class="highlight">BLOG</span></h3>
+                    <p>Your premier destination for Formula 1 news, analysis, and insights. Covering every race, every team, every story.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="YouTube">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.33z"/>
+                                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Race Recaps</a></li>
+                        <li><a href="#">Analysis</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Interviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">F1 Calendar</a></li>
+                        <li><a href="#">Driver Profiles</a></li>
+                        <li><a href="#">Team Profiles</a></li>
+                        <li><a href="#">Glossary</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 F1 Blog. All rights reserved. Not affiliated with Formula 1 or FIA.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
